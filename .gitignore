@@ -1,0 +1,41 @@
+# dependencies
+node_modules/
+
+# expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macos
+.DS_Store
+*.pem
+
+# local and production env files (API keys & secrets)
+.env
+.env.*
+.env*.local
+!.env.example
+
+# native credentials and API key configurations
+google-services.json
+GoogleService-Info.plist
+
+# typescript
+*.tsbuildinfo
