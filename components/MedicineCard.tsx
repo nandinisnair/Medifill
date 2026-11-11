@@ -16,15 +16,12 @@ import Animated, {
 } from 'react-native-reanimated';
 import {
   Pill,
-  CircleAlert as AlertCircle,
   Calendar,
   Trash2,
   Edit3,
   X,
   Save,
   Clock,
-  ChevronRight,
-  TrendingDown,
   ShieldAlert,
   User as UserIcon,
 } from 'lucide-react-native';

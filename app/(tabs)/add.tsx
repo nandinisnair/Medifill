@@ -12,7 +12,6 @@ import {
   Modal,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import Animated, { FadeInDown, FadeInUp } from 'react-native-reanimated';
 import {
   Camera,
   Calendar,
@@ -20,13 +19,11 @@ import {
   Pill,
   Package,
   ScanLine,
-  ChevronDown,
   Sparkles,
   Check,
   Plus,
   X,
   User as UserIcon,
-  Users,
 } from 'lucide-react-native';
 import { useMedicineContext } from '../../context/MedicineContext';
 import { router, useLocalSearchParams } from 'expo-router';

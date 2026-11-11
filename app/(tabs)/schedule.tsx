@@ -5,7 +5,6 @@ import {
   StyleSheet,
   ScrollView,
   TouchableOpacity,
-  Platform,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import {
@@ -13,10 +12,6 @@ import {
   Clock,
   Pill,
   Check,
-  ChevronLeft,
-  ChevronRight,
-  Sparkles,
-  CheckCircle2,
   Circle,
   User as UserIcon,
   Users,
@@ -328,10 +323,10 @@ export default function ScheduleScreen() {
               <View>
                 <Text style={styles.adherenceTitle}>
                   {adherencePercent === 100
-                    ? '🎉 Perfect Adherence!'
+                    ? 'Perfect Adherence!'
                     : adherencePercent >= 50
-                    ? '⚡ On Track'
-                    : '💊 Doses Scheduled'}
+                    ? 'On Track'
+                    : 'Doses Scheduled'}
                 </Text>
                 <Text style={styles.adherenceSubtitle}>
                   {takenDoses} of {totalDoses} doses logged ({adherencePercent}%)

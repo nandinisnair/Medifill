@@ -21,13 +21,11 @@ import {
   Pill,
   Calendar,
   Package,
-  Clock,
   X,
   Plus,
   ChevronRight,
   ShieldAlert,
   Sparkles,
-  CheckCircle2,
   User as UserIcon,
   Users,
 } from 'lucide-react-native';
@@ -284,7 +282,7 @@ export default function HomeScreen() {
               style={styles.scheduleLink}
               onPress={() => router.push('/(tabs)/schedule')}
             >
-              <Text style={styles.scheduleLinkText}>Today's Doses</Text>
+              <Text style={styles.scheduleLinkText}>Today&apos;s Doses</Text>
               <ChevronRight size={14} color={Colors.primary} />
             </TouchableOpacity>
           </View>

@@ -2,7 +2,7 @@ import React from 'react';
 import { View, StyleSheet, Text, TouchableOpacity } from 'react-native';
 import { CHENNAI_PHARMACIES, CHENNAI_CENTER } from '../constants/pharmacies';
 import { Colors, Spacing, FontSize, BorderRadius, Shadow } from '../constants/theme';
-import { MapPin, ExternalLink, Navigation } from 'lucide-react-native';
+import { MapPin, Navigation } from 'lucide-react-native';
 
 interface ChennaiMapProps {
   selectedPharmacy?: string;

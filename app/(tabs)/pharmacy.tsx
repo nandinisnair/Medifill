@@ -20,13 +20,11 @@ import {
   Star,
   Navigation,
   Compass,
-  CheckCircle,
 } from 'lucide-react-native';
 import Animated, { FadeInDown, FadeInRight } from 'react-native-reanimated';
 import * as Location from 'expo-location';
 import ChennaiMap from '../../components/ChennaiMap';
 import {
-  CHENNAI_PHARMACIES,
   searchPharmacies,
   sortByDistance,
   sortByRating,

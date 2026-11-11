@@ -117,7 +117,7 @@ export async function scheduleMedicineReminders(reminder: MedicineReminder) {
       await Notifications.scheduleNotificationAsync({
         identifier,
         content: {
-          title: '💊 Time for your medicine',
+          title: 'Time for your medicine',
           body: `Take ${reminder.medicineName} (${reminder.dosage})`,
           data: { medicineId: reminder.medicineId },
           sound: true,

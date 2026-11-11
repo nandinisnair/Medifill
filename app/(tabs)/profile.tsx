@@ -15,7 +15,7 @@ import {
   Platform,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import Animated, { FadeIn, FadeInDown } from 'react-native-reanimated';
+import Animated, { FadeInDown } from 'react-native-reanimated';
 import {
   Settings,
   Bell,
@@ -37,7 +37,6 @@ import {
   Info,
   Database,
   Lock,
-  Key,
   ScanLine,
 } from 'lucide-react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
@@ -737,7 +736,7 @@ export default function ProfileScreen() {
               style={[styles.primaryActionBtn, { marginTop: Spacing.lg }]}
               onPress={async () => {
                 await sendInstantNotification(
-                  '💊 MediFill Reminder Active',
+                  'MediFill Reminder Active',
                   'Your medicine notification system is working perfectly!'
                 );
                 const msg = 'Test notification sent! Check your notification tray.';
