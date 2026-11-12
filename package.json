@@ -5,6 +5,8 @@
   "private": true,
   "scripts": {
     "dev": "expo start",
+    "dev:tunnel": "expo start --tunnel ngrok -c",
+    "dev:lan": "expo start --lan -c",
     "build:web": "expo export --platform web",
     "lint": "expo lint"
   },
